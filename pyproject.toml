@@ -1,0 +1,16 @@
+[project]
+name = "cv-math-labs"
+version = "0.1.0"
+description = "CSE5382: 15 лабораторных работ по математическим методам в компьютерном зрении"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29",
+    "matplotlib>=3.9",
+    "nbclient>=0.10",
+    "nbformat>=5.10",
+    "numpy>=2.0",
+    "opencv-python>=4.10",
+    "torch>=2.5",
+    "torchvision>=0.20",
+]
